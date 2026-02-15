@@ -1,0 +1,9 @@
+{
+  "image": "kalilinux/kali-rolling:latest",
+  "postCreateCommand": "apt update && apt install -y kali-linux-headless",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode-remote.remote-containers"]
+    }
+  }
+}
